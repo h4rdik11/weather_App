@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+
+    <!-- JQuery -->
+    <script src="dist/js/jquery.min.js"></script>
+
+    <!-- JS Files -->
+    <script src="dist/js/main.js"></script>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="dist/css/main.css">
+
+</head>
+<body>
+    <div class="main-content">
+        <div class="widget__wrap">
+            <label class="widget__select__lable" for="city_code">From:</label>
+            <select class="widget__select" id="city_code">
+                    <option value="1566083">Ho Chi Minh City</option>
+                    <option value="1880252">Singapore</option>
+                    <option value="1733046">Kuala Lumpur</option>
+                    <option value="1850147">Tokyo</option>
+                    <option value="264371">Athens</option>
+            </select>
+            <hr/>
+            <div class="widget__display" style="display:none">
+                <div class="widget__display__current">
+                    <div>Current Weather : </div>
+                    <div class="current_wrap">
+                        <div class="current__temp">12deg</div>
+                        <div class="curr_icon">
+                                <img class="current__icon" src="http://openweathermap.org/img/w/10d.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="widget__display__next3">
+                    <div class="next3__heading">Next 3 Days: : </div>
+                    <div class="col__wrap">
+                        <div class="widget__next__col">
+                            <div class="widget__next__date" id="day1_date">25/3</div>
+                            <div class="widget__next__temp" id="day1_temp"><span>11deg</span>
+                                <img class="widget__next__icon" id="day1_icon" src="http://openweathermap.org/img/w/10d.png">
+                            </div>
+                        </div>
+                        <div class="widget__next__col">
+                                <div class="widget__next__date" id="day2_date">25/3</div>
+                                <div class="widget__next__temp" id="day2_temp"><span>11deg</span>
+                                    <img class="widget__next__icon" id="day2_icon" src="http://openweathermap.org/img/w/10d.png">
+                                </div>
+                        </div>
+                        <div class="widget__next__col">
+                                <div class="widget__next__date" id="day3_date">25/3</div>
+                                <div class="widget__next__temp" id="day3_temp"><span>11deg</span>
+                                    <img class="widget__next__icon" id="day3_icon" src="http://openweathermap.org/img/w/10d.png">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

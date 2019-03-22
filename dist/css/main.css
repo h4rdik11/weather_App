@@ -1,0 +1,46 @@
+.widget__display{
+    border: 1px solid black;
+    width: 70%;
+}
+
+.widget__display__current{
+    width: 20%;
+    display: inline-block;
+}
+
+.current_wrap{
+    display: table-row;
+}
+.current__temp{
+    display: table-cell;
+    vertical-align: middle;
+    width: 60%;
+}
+.curr_icon{
+    display: table-cell;
+}
+
+.widget__display__next3{
+    display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    margin-top: 45px;
+}
+
+.widget__next__col{
+    display: inline-block;
+    position: relative;
+    width: 19%;
+}
+.widget__next__date{
+    text-decoration: underline;
+}
+.widget__next__icon{
+    display: inline-block;
+    top: -7px;
+    left: 41px;
+    position: absolute;
+}
+.next3__heading{
+    margin-bottom: 2%;
+}
